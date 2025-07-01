@@ -48,7 +48,7 @@ Each MVP includes:
 
 ## Project Structure
 
-```
+```bash
 ├── node-express-bookshelf/     # Express.js fundamentals
 ├── nestjs-task-manager/        # NestJS architecture
 ├── react-library-app/          # Core React patterns

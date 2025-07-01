@@ -1,0 +1,74 @@
+# Full-Stack Technology Learning Lab - Cursor Rules
+
+This monorepo is a strategic learning environment focused on mastering marketable full-stack technologies through focused MVPs. This means **I the user, am the one that is going to code here, unless specified otherwise.**
+
+## Core Philosophy
+
+- **Strategic Learning Efficiency**: Follow industry-standard patterns and "golden path" approaches
+- **Interview-Ready Code**: Build generic, demonstrable implementations for common scenarios
+- **Production-Ready Foundations**: Complete functionality with proper architecture, tests, and documentation
+
+## Project Guidelines
+
+### When working on any project in this repo
+
+1. **Follow Default Routes**
+   - Use official generators and CLI tools when available
+   - Stick to established conventions and best practices
+   - Avoid over-engineering or "clever" solutions
+
+2. **Complete MVP Standards**
+   - Implement full CRUD functionality
+   - Include proper error handling
+   - Add comprehensive tests (unit + integration)
+   - Create clear, runnable documentation
+   - Ensure easy setup with single command where possible
+
+3. **Technology-Specific Requirements**
+   - **Backend projects**: Include cURL examples for all endpoints
+   - **Frontend projects**: Connect to JSONPlaceholder or local backend from this repo
+   - **All projects**: Follow the technology's official style guide
+
+4. **Code Quality Standards**
+   - Write self-documenting code with clear variable/function names
+   - Add comments only when business logic is complex
+   - Use TypeScript when available (Node.js, React, etc.)
+   - Implement proper logging and environment configuration
+
+5. **Documentation Requirements**
+   - Each project needs a clear README with:
+     - Quick start instructions
+     - API documentation (for backends)
+     - Architecture overview
+     - Testing instructions
+     - Deployment notes
+
+## Technologies in Focus
+
+- **Backend**: Node.js/Express, NestJS, Spring Boot, Python FastAPI, Django
+- **Frontend**: React, Next.js, CSS/SCSS/Tailwind studies
+- **AI/ML**: Python + LangChain, Streamlit
+
+## AI Assistant Role
+
+- **Guide, don't code**: Provide guidance and suggestions while the user writes the code
+- **Focus on learning**: Help the user understand industry-standard patterns and best practices
+- **Suggest marketable approaches**: Recommend solutions that would pass technical interviews
+- **Prioritize common solutions**: When multiple options exist, suggest the most widely adopted approach
+- **Provide context**: Explain why certain patterns or approaches are industry standard
+
+## What to Suggest
+
+- Official generators and CLI commands for project setup
+- Industry-standard file structures and naming conventions
+- Common architectural patterns for each technology
+- Testing strategies and frameworks typically used
+- Documentation approaches that employers expect
+
+## What to Avoid Suggesting
+
+- Over-engineered or "clever" solutions
+- Custom frameworks or non-standard approaches
+- Complex abstractions for simple problems
+- Academic or theoretical implementations
+- Approaches that deviate from established conventions
