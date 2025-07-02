@@ -21,7 +21,7 @@ var deleteBook = (req, res) => {
 var updateBook = (req, res) => {
     const updatedBook = bookModel.update(req.params.id, req.body);
     if (updatedBook)
-        res.json(updateBook);
+        res.json(updatedBook);
     else
         res.status(404).end();
 }
