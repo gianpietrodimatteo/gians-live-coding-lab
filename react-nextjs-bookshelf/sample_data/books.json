@@ -1,0 +1,514 @@
+[
+  {
+    "author": "Chinua Achebe",
+    "title": "Things Fall Apart",
+    "country": "Nigeria",
+    "language": "English",
+    "pages": 209,
+    "year": 1958
+  },
+  {
+    "author": "Virginia Woolf",
+    "title": "Mrs Dalloway",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 194,
+    "year": 1925
+  },
+  {
+    "author": "Virginia Woolf",
+    "title": "To the Lighthouse",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 209,
+    "year": 1927
+  },
+  {
+    "author": "Euripides",
+    "title": "Medea",
+    "country": "Greece",
+    "language": "Greek",
+    "pages": 84,
+    "year": -431
+  },
+  {
+    "author": "Nikolai Gogol",
+    "title": "Dead Souls",
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 432,
+    "year": 1842
+  },
+  {
+    "author": "Leo Tolstoy",
+    "title": "The Death of Ivan Ilyich",
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 92,
+    "year": 1886
+  },
+  {
+    "author": "Dante Alighieri",
+    "title": "The Divine Comedy",
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 798,
+    "year": 1320
+  },
+  {
+    "author": "Giovanni Boccaccio",
+    "title": "The Decameron",
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 1024,
+    "year": 1353
+  },
+  {
+    "author": "Giacomo Leopardi",
+    "title": "Canti",
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 184,
+    "year": 1831
+  },
+  {
+    "author": "Elsa Morante",
+    "title": "History",
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 600,
+    "year": 1974
+  },
+  {
+    "author": "Italo Svevo",
+    "title": "Confessions of Zeno",
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 437,
+    "year": 1923
+  },
+  {
+    "author": "Jorge Luis Borges",
+    "title": "Ficciones",
+    "country": "Argentina",
+    "language": "Spanish",
+    "pages": 174,
+    "year": 1962
+  },
+  {
+    "author": "Miguel de Cervantes",
+    "title": "Don Quixote",
+    "country": "Spain",
+    "language": "Spanish",
+    "pages": 1056,
+    "year": 1605
+  },
+  {
+    "author": "Federico García Lorca",
+    "title": "Gypsy Ballads",
+    "country": "Spain",
+    "language": "Spanish",
+    "pages": 218,
+    "year": 1928
+  },
+  {
+    "author": "Gabriel García Márquez",
+    "title": "One Hundred Years of Solitude",
+    "country": "Colombia",
+    "language": "Spanish",
+    "pages": 417,
+    "year": 1967
+  },
+  {
+    "author": "Gabriel García Márquez",
+    "title": "Love in the Time of Cholera",
+    "country": "Colombia",
+    "language": "Spanish",
+    "pages": 348,
+    "year": 1985
+  },
+  {
+    "author": "Juan Rulfo",
+    "title": "Pedro Páramo",
+    "country": "Mexico",
+    "language": "Spanish",
+    "pages": 124,
+    "year": 1955
+  },
+  {
+    "author": "Doris Lessing",
+    "title": "The Golden Notebook",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 688,
+    "year": 1962
+  },
+  {
+    "author": "Tayeb Salih",
+    "title": "Season of Migration to the North",
+    "country": "Sudan",
+    "language": "Arabic",
+    "pages": 169,
+    "year": 1966
+  },
+  {
+    "author": "William Faulkner",
+    "title": "The Sound and the Fury",
+    "country": "United States",
+    "language": "English",
+    "pages": 326,
+    "year": 1929
+  },
+  {
+    "author": "James Joyce",
+    "title": "Ulysses",
+    "country": "Ireland",
+    "language": "English",
+    "pages": 730,
+    "year": 1922
+  },
+  {
+    "author": "Edgar Allan Poe",
+    "title": "Tales",
+    "country": "United States",
+    "language": "English",
+    "pages": 842,
+    "year": 1950
+  },
+  {
+    "author": "Franz Kafka",
+    "title": "The Metamorphosis",
+    "country": "Czech Republic",
+    "language": "German",
+    "pages": 55,
+    "year": 1915
+  },
+  {
+    "author": "Franz Kafka",
+    "title": "The Trial",
+    "country": "Czech Republic",
+    "language": "German",
+    "pages": 255,
+    "year": 1925
+  },
+  {
+    "author": "Marcel Proust",
+    "title": "In Search of Lost Time",
+    "country": "France",
+    "language": "French",
+    "pages": 4215,
+    "year": 1913
+  },
+  {
+    "author": "Gustave Flaubert",
+    "title": "Madame Bovary",
+    "country": "France",
+    "language": "French",
+    "pages": 244,
+    "year": 1857
+  },
+  {
+    "author": "Victor Hugo",
+    "title": "Les Misérables",
+    "country": "France",
+    "language": "French",
+    "pages": 1462,
+    "year": 1862
+  },
+  {
+    "author": "Albert Camus",
+    "title": "The Stranger",
+    "country": "France",
+    "language": "French",
+    "pages": 123,
+    "year": 1942
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "title": "Crime and Punishment",
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 671,
+    "year": 1866
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "title": "The Brothers Karamazov",
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 796,
+    "year": 1880
+  },
+  {
+    "author": "Leo Tolstoy",
+    "title": "War and Peace",
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 1225,
+    "year": 1869
+  },
+  {
+    "author": "Leo Tolstoy",
+    "title": "Anna Karenina",
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 864,
+    "year": 1877
+  },
+  {
+    "author": "Anton Chekhov",
+    "title": "The Cherry Orchard",
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 96,
+    "year": 1904
+  },
+  {
+    "author": "George Orwell",
+    "title": "1984",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 328,
+    "year": 1949
+  },
+  {
+    "author": "George Orwell",
+    "title": "Animal Farm",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 95,
+    "year": 1945
+  },
+  {
+    "author": "Jane Austen",
+    "title": "Pride and Prejudice",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 279,
+    "year": 1813
+  },
+  {
+    "author": "Charles Dickens",
+    "title": "Great Expectations",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 505,
+    "year": 1861
+  },
+  {
+    "author": "William Shakespeare",
+    "title": "Hamlet",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 342,
+    "year": 1603
+  },
+  {
+    "author": "William Shakespeare",
+    "title": "Romeo and Juliet",
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 283,
+    "year": 1597
+  },
+  {
+    "author": "Mark Twain",
+    "title": "The Adventures of Huckleberry Finn",
+    "country": "United States",
+    "language": "English",
+    "pages": 366,
+    "year": 1884
+  },
+  {
+    "author": "Ernest Hemingway",
+    "title": "The Old Man and the Sea",
+    "country": "United States",
+    "language": "English",
+    "pages": 127,
+    "year": 1952
+  },
+  {
+    "author": "Harper Lee",
+    "title": "To Kill a Mockingbird",
+    "country": "United States",
+    "language": "English",
+    "pages": 376,
+    "year": 1960
+  },
+  {
+    "author": "J.D. Salinger",
+    "title": "The Catcher in the Rye",
+    "country": "United States",
+    "language": "English",
+    "pages": 277,
+    "year": 1951
+  },
+  {
+    "author": "Toni Morrison",
+    "title": "Beloved",
+    "country": "United States",
+    "language": "English",
+    "pages": 324,
+    "year": 1987
+  },
+  {
+    "author": "Hermann Hesse",
+    "title": "Siddhartha",
+    "country": "Germany",
+    "language": "German",
+    "pages": 152,
+    "year": 1922
+  },
+  {
+    "author": "Thomas Mann",
+    "title": "The Magic Mountain",
+    "country": "Germany",
+    "language": "German",
+    "pages": 854,
+    "year": 1924
+  },
+  {
+    "author": "Günter Grass",
+    "title": "The Tin Drum",
+    "country": "Germany",
+    "language": "German",
+    "pages": 591,
+    "year": 1959
+  },
+  {
+    "author": "Haruki Murakami",
+    "title": "Norwegian Wood",
+    "country": "Japan",
+    "language": "Japanese",
+    "pages": 296,
+    "year": 1987
+  },
+  {
+    "author": "Yasunari Kawabata",
+    "title": "Snow Country",
+    "country": "Japan",
+    "language": "Japanese",
+    "pages": 175,
+    "year": 1948
+  },
+  {
+    "author": "Murasaki Shikibu",
+    "title": "The Tale of Genji",
+    "country": "Japan",
+    "language": "Japanese",
+    "pages": 1360,
+    "year": 1010
+  },
+  {
+    "author": "Lu Xun",
+    "title": "A Madman's Diary",
+    "country": "China",
+    "language": "Chinese",
+    "pages": 45,
+    "year": 1918
+  },
+  {
+    "author": "Cao Xueqin",
+    "title": "Dream of the Red Chamber",
+    "country": "China",
+    "language": "Chinese",
+    "pages": 2339,
+    "year": 1791
+  },
+  {
+    "author": "Isabel Allende",
+    "title": "The House of the Spirits",
+    "country": "Chile",
+    "language": "Spanish",
+    "pages": 433,
+    "year": 1982
+  },
+  {
+    "author": "Mario Vargas Llosa",
+    "title": "The Time of the Hero",
+    "country": "Peru",
+    "language": "Spanish",
+    "pages": 418,
+    "year": 1963
+  },
+  {
+    "author": "Octavio Paz",
+    "title": "The Labyrinth of Solitude",
+    "country": "Mexico",
+    "language": "Spanish",
+    "pages": 398,
+    "year": 1950
+  },
+  {
+    "author": "Jorge Amado",
+    "title": "Gabriela, Clove and Cinnamon",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "pages": 425,
+    "year": 1958
+  },
+  {
+    "author": "Machado de Assis",
+    "title": "Dom Casmurro",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "pages": 256,
+    "year": 1899
+  },
+  {
+    "author": "José Saramago",
+    "title": "Blindness",
+    "country": "Portugal",
+    "language": "Portuguese",
+    "pages": 352,
+    "year": 1995
+  },
+  {
+    "author": "Milan Kundera",
+    "title": "The Unbearable Lightness of Being",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "pages": 314,
+    "year": 1984
+  },
+  {
+    "author": "Wole Soyinka",
+    "title": "Death and the King's Horseman",
+    "country": "Nigeria",
+    "language": "English",
+    "pages": 83,
+    "year": 1975
+  },
+  {
+    "author": "Naguib Mahfouz",
+    "title": "Cairo Trilogy",
+    "country": "Egypt",
+    "language": "Arabic",
+    "pages": 1355,
+    "year": 1956
+  },
+  {
+    "author": "Rabindranath Tagore",
+    "title": "Gitanjali",
+    "country": "India",
+    "language": "Bengali",
+    "pages": 103,
+    "year": 1910
+  },
+  {
+    "author": "R.K. Narayan",
+    "title": "The Guide",
+    "country": "India",
+    "language": "English",
+    "pages": 220,
+    "year": 1958
+  },
+  {
+    "author": "Salman Rushdie",
+    "title": "Midnight's Children",
+    "country": "India",
+    "language": "English",
+    "pages": 647,
+    "year": 1981
+  }
+] 
