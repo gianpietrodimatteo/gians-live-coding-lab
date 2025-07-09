@@ -7,7 +7,7 @@ import {
   screen,
   within,
 } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
+import "@testing-library/jest-dom";
 import BookSearch from "../../app/components/BookSearch";
 const {
   getAllByTestId,
