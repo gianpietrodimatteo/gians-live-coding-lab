@@ -21,16 +21,16 @@ const testCases = {
     "Main test case (8)": [4, 1, 3, 2, 7, 6, 5],
     "Minimal test case (1)": [1],
     "Minimal test case 2 (1)": [4, 1, 3],
-    "Negatives": [4, 1, 3, 9, -5, -2, 1, -7],
-    "Repeated": [4, -7, 3, -7, -5, -7, -7]
+    "Negatives (-11)": [4, 1, 3, 9, -5, -2, 1, -7],
+    "Repeated (-21)": [4, -7, 3, -7, -5, -7, -7]
 }
 
 // we know arr.length > 0           OK  
 const findMinimal = (arr, markedIndexes) => {
-    // TODO potential problem here with arr[0]
-    let minimal = arr[0];
+    // Set initial minimal value as the first non marked index
+    let minimal;
     arr.forEach((element, index) => {
-        if (element < minimal && !markedIndexes[index])
+        if (!markedIndexes[index] && (element < minimal || minimal == undefined))
             minimal = element;
     });
     return minimal;
@@ -39,7 +39,6 @@ const findMinimal = (arr, markedIndexes) => {
 // we know it's there               
 const findMinimalIndex = (arr, min, markedIndexes) => {
     // Find the min factoring the marked indexes
-    // return arr.findIndex(element => element === min);
 
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === min && !markedIndexes[i])
@@ -68,10 +67,13 @@ const doShit = (values) => {
 
     for (let i = 0; i < 3; i++) {
         const minimal = findMinimal(values, markedIndexes);
-        const minimalIndex = findMinimalIndex(values, minimal, markedIndexes);
-        markAdjascentIndexes(minimalIndex, markedIndexes)
-        console.log({ minimal, minimalIndex, markedIndexes });
-        finalSum += minimal;
+        // if we actually find a valid value
+        if (minimal) {
+            const minimalIndex = findMinimalIndex(values, minimal, markedIndexes);
+            markAdjascentIndexes(minimalIndex, markedIndexes)
+            console.log({ minimal, minimalIndex, markedIndexes });
+            finalSum += minimal;
+        }
     }
 
     return finalSum;
