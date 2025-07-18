@@ -58,13 +58,6 @@ const doShit = (values) => {
 
     const markedIndexes = {};
 
-    // const minimal = findMinimal(values, markedIndexes);
-    // const minimalIndex = findMinimalIndex(values, minimal);
-    // markAdjascentIndexes(minimalIndex, markedIndexes)
-    // console.log({ minimal, minimalIndex, markedIndexes });
-
-    // finalSum = minimal;
-
     for (let i = 0; i < 3; i++) {
         const minimal = findMinimal(values, markedIndexes);
         // if we actually find a valid value

@@ -34,6 +34,10 @@ A systematic approach to mastering marketable full-stack technologies through fo
 - **Python + LangChain** - AI application development
 - **Streamlit** - Rapid AI app prototyping
 
+### Learning Tools
+
+- **Codist** - Syntax memorization through active recall and diff comparison
+
 ## Success Criteria
 
 Each MVP includes:
@@ -49,6 +53,7 @@ Each MVP includes:
 ## Project Structure
 
 ```bash
+├── codist/                     # Syntax memorization tool
 ├── node-express-bookshelf/     # Express.js fundamentals
 ├── nestjs-task-manager/        # NestJS architecture
 ├── react-library-app/          # Core React patterns
