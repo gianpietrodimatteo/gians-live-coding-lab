@@ -104,30 +104,6 @@
     "year": 1605
   },
   {
-    "author": "Federico García Lorca",
-    "title": "Gypsy Ballads",
-    "country": "Spain",
-    "language": "Spanish",
-    "pages": 218,
-    "year": 1928
-  },
-  {
-    "author": "Gabriel García Márquez",
-    "title": "One Hundred Years of Solitude",
-    "country": "Colombia",
-    "language": "Spanish",
-    "pages": 417,
-    "year": 1967
-  },
-  {
-    "author": "Gabriel García Márquez",
-    "title": "Love in the Time of Cholera",
-    "country": "Colombia",
-    "language": "Spanish",
-    "pages": 348,
-    "year": 1985
-  },
-  {
     "author": "Juan Rulfo",
     "title": "Pedro Páramo",
     "country": "Mexico",
@@ -470,14 +446,6 @@
     "language": "Czech",
     "pages": 314,
     "year": 1984
-  },
-  {
-    "author": "Wole Soyinka",
-    "title": "Death and the King's Horseman",
-    "country": "Nigeria",
-    "language": "English",
-    "pages": 83,
-    "year": 1975
   },
   {
     "author": "Naguib Mahfouz",

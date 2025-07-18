@@ -123,10 +123,10 @@ describe("BookSearch", () => {
         expect(bookEls).toHaveLength(6);
         expect(within(bookEls[0]).getByText(/\bJorge Luis Borges\b/)).toBeInTheDocument();
         expect(within(bookEls[1]).getByText(/\bMiguel de Cervantes\b/)).toBeInTheDocument();
-        expect(within(bookEls[2]).getByText(/\bGypsy Ballads\b/)).toBeInTheDocument();
-        expect(within(bookEls[3]).getByText(/\bOne Hundred Years of Solitude\b/)).toBeInTheDocument();
-        expect(within(bookEls[4]).getByText(/\bLove in the Time of Cholera\b/)).toBeInTheDocument();
-        expect(within(bookEls[5]).getByText(/\bJuan Rulfo\b/)).toBeInTheDocument();
+        expect(within(bookEls[2]).getByText(/\bJuan Rulfo\b/)).toBeInTheDocument();
+        expect(within(bookEls[3]).getByText(/\bIsabel Allende\b/)).toBeInTheDocument();
+        expect(within(bookEls[4]).getByText(/\bMario Vargas Llosa\b/)).toBeInTheDocument();
+        expect(within(bookEls[5]).getByText(/\bOctavio Paz\b/)).toBeInTheDocument();
       });
     });
 
@@ -141,11 +141,12 @@ describe("BookSearch", () => {
 
       it("should filter books on the language get", () => {
         const bookEls = getAllByTestId("book");
-        expect(bookEls).toHaveLength(4);
+        expect(bookEls).toHaveLength(5);
         expect(within(bookEls[0]).getByText(/\bFicciones\b/)).toBeInTheDocument();
-        expect(within(bookEls[1]).getByText(/\bOne Hundred Years of Solitude\b/)).toBeInTheDocument();
-        expect(within(bookEls[2]).getByText(/\bThe Golden Notebook\b/)).toBeInTheDocument();
-        expect(within(bookEls[3]).getByText(/\bSeason of Migration to the North\b/)).toBeInTheDocument();
+        expect(within(bookEls[1]).getByText(/\bThe Golden Notebook\b/)).toBeInTheDocument();
+        expect(within(bookEls[2]).getByText(/\bSeason of Migration to the North\b/)).toBeInTheDocument();
+        expect(within(bookEls[3]).getByText(/\bTo Kill a Mockingbird\b/)).toBeInTheDocument();
+        expect(within(bookEls[4]).getByText(/\bThe Time of the Hero\b/)).toBeInTheDocument();
       });
     });
   });
@@ -160,10 +161,11 @@ describe("BookSearch", () => {
       it("should filter books on the language and year get", () => {
         const bookEls = getAllByTestId("book");
         expect(bookEls).toHaveLength(4);
-        expect(within(bookEls[0]).getByText(/\bSound and the Fury\b/)).toBeInTheDocument();
-        expect(within(bookEls[1]).getByText(/\bUlysses\b/)).toBeInTheDocument();
-        expect(within(bookEls[2]).getByText(/\bMrs Dalloway\b/)).toBeInTheDocument();
-        expect(within(bookEls[3]).getByText(/\bTo the Lighthouse\b/)).toBeInTheDocument();
+
+        expect(within(bookEls[0]).getByText(/\bMrs Dalloway\b/)).toBeInTheDocument();
+        expect(within(bookEls[1]).getByText(/\bTo the Lighthouse\b/)).toBeInTheDocument();
+        expect(within(bookEls[2]).getByText(/\bSound and the Fury\b/)).toBeInTheDocument();
+        expect(within(bookEls[3]).getByText(/\bUlysses\b/)).toBeInTheDocument();
       });
     });
 
