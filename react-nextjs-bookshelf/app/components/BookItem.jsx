@@ -1,3 +1,4 @@
+import styles from './BookSearch.module.css';
 
     // "author": "Gabriel García Márquez",
     // "title": "Love in the Time of Cholera",
@@ -7,8 +8,8 @@
     // "year": 1985
 function BookItem({ book }) {
     return (
-        <div data-testid="book" className="book-item">
-            <dl className="book-list">
+        <div data-testid="book" className= { styles.bookItem }>
+            <dl>
                 <dt>Title:</dt>
                 <dd>{book.title}</dd>
                 <dt>Author:</dt>

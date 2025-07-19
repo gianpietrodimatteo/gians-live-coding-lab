@@ -2,6 +2,7 @@
 
 import BookItem from "./BookItem"
 import { useState } from "react";
+import styles from './BookSearch.module.css';
 
 // "title": "Things Fall Apart",
 // "author": "Chinua Achebe",
@@ -30,12 +31,12 @@ function BookSearch({ books }) {
     });
 
     const changeFilter = (field, value) => {
-        setSearchObj({...searchObj, [field]: value.trim()});
+        setSearchObj({ ...searchObj, [field]: value.trim() });
     }
 
     return (
         <div>
-            <div className="filter-section">
+            <div className={styles.filterSection}>
                 <label>
                     Title:
                     <input data-testid="title" type="text" id="title" name="title" placeholder="Search by title" value={searchObj.title} onChange={e => changeFilter("title", e.target.value)} />
@@ -58,9 +59,11 @@ function BookSearch({ books }) {
                 </label>
             </div>
 
-            {filteredBooks.map((book, index) => {
-                return <BookItem key={index} book={book} />
-            })}
+            <div className= {styles.bookList }>
+                {filteredBooks.map((book, index) => {
+                    return <BookItem key={index} book={book} />
+                })}
+            </div>
         </div>
     )
 }

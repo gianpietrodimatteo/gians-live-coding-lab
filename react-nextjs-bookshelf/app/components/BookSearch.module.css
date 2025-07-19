@@ -1,0 +1,46 @@
+.filterSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(248, 239, 226);
+    width: 25vw;
+}
+
+.filterSection label {
+    display: flex;
+    gap: 1rem;
+}
+
+.filterSection input {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.bookItem {
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 2rem;
+    background-color: #e3fbff;
+    width: 25vw;
+    border: 1px solid #ddd;
+}
+
+.bookItem dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem 1rem;
+    font-size: 2rem;
+}
+
+.bookItem dt {
+    font-weight: bold;
+}
+
+.bookList {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0 1rem
+}
