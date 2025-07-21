@@ -1,0 +1,109 @@
+/* CSS Flexbox & Grid Reference */
+
+/* FLEXBOX CONTAINER */
+.flex-container {
+    display: flex;
+    flex-direction: row; /* row, column, row-reverse, column-reverse */
+    flex-wrap: nowrap; /* nowrap, wrap, wrap-reverse */
+    justify-content: flex-start; /* flex-start, center, flex-end, space-between, space-around, space-evenly */
+    align-items: stretch; /* stretch, flex-start, center, flex-end, baseline */
+    align-content: stretch; /* stretch, flex-start, center, flex-end, space-between, space-around */
+    gap: 1rem;
+}
+
+/* FLEXBOX SHORTHAND */
+.flex-container-short {
+    display: flex;
+    flex-flow: row wrap; /* flex-direction + flex-wrap */
+    place-content: center; /* align-content + justify-content */
+    place-items: center; /* align-items + justify-items */
+}
+
+/* FLEXBOX ITEMS */
+.flex-item {
+    flex-grow: 0; /* how much to grow */
+    flex-shrink: 1; /* how much to shrink */
+    flex-basis: auto; /* initial size */
+    flex: 1; /* shorthand: grow shrink basis */
+    align-self: auto; /* auto, flex-start, center, flex-end, stretch */
+    order: 0; /* visual order */
+}
+
+/* COMMON FLEX PATTERNS */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* GRID CONTAINER */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* or repeat(3, 1fr) */
+    grid-template-rows: 100px auto 50px;
+    gap: 1rem; /* or grid-gap */
+    grid-template-areas: 
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+    justify-content: start; /* start, center, end, stretch, space-around, space-between, space-evenly */
+    align-content: start; /* start, center, end, stretch, space-around, space-between, space-evenly */
+    justify-items: stretch; /* start, center, end, stretch */
+    align-items: stretch; /* start, center, end, stretch */
+}
+
+/* GRID SIZING FUNCTIONS */
+.grid-sizing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* repeat function */
+    grid-template-columns: minmax(100px, 1fr) 2fr; /* minmax function */
+    grid-template-columns: fit-content(200px) 1fr; /* fit-content function */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive */
+    grid-template-columns: repeat(auto-fill, 200px);
+}
+
+/* GRID ITEMS */
+.grid-item {
+    grid-column: 1 / 3; /* start / end */
+    grid-row: 2 / 4;
+    grid-area: header; /* named area */
+    justify-self: center; /* start, center, end, stretch */
+    align-self: center; /* start, center, end, stretch */
+}
+
+/* GRID ITEM SHORTHAND */
+.grid-item-short {
+    grid-column: span 2; /* span columns */
+    grid-row: span 3; /* span rows */
+    grid-area: 1 / 2 / 3 / 4; /* row-start / col-start / row-end / col-end */
+}
+
+/* COMMON GRID PATTERNS */
+.grid-center {
+    display: grid;
+    place-items: center; /* justify-items + align-items */
+}
+
+.grid-responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+} 

@@ -69,7 +69,7 @@ function greet(name = 'World') {
 }
 
 // Rest Parameters
-function sum(...numbers) {
+function fsum(...numbers) {
     return numbers.reduce((acc, num) => acc + num, 0);
 }
 
@@ -179,6 +179,9 @@ promise
 async function fetchData() {
     try {
         const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data = await response.json();
         return data;
     } catch (error) {
@@ -206,44 +209,51 @@ async function createPost(post) {
 }
 
 // DOM Manipulation
-document.addEventListener('DOMContentLoaded', function() {
-    // Element Selection
-    const element = document.getElementById('myId');
-    const elements = document.querySelectorAll('.myClass');
-    const firstElement = document.querySelector('.myClass');
-    
-    // Element Creation
-    const newElement = document.createElement('div');
-    newElement.textContent = 'Hello World';
-    newElement.className = 'new-element';
-    
-    // Element Manipulation
-    element.textContent = 'New text';
-    element.innerHTML = '<strong>Bold text</strong>';
-    element.setAttribute('data-value', '123');
-    element.classList.add('active');
-    element.classList.remove('inactive');
-    element.classList.toggle('visible');
-    
-    // Element Insertion
-    document.body.appendChild(newElement);
-    element.insertBefore(newElement, element.firstChild);
-    
-    // Event Handling
-    element.addEventListener('click', function(event) {
-        console.log('Element clicked');
-        event.preventDefault();
+if (typeof window !== 'undefined') { // check if we're in browser
+    document.addEventListener('DOMContentLoaded', function() {
+        // Element Selection
+        const element = document.getElementById('myId');
+        const elements = document.querySelectorAll('.myClass');
+        const firstElement = document.querySelector('.myClass');
+        
+        // Element Creation
+        const newElement = document.createElement('div');
+        newElement.textContent = 'Hello World';
+        newElement.className = 'new-element';
+        
+        // Element Manipulation
+        element.textContent = 'New text';
+        element.innerHTML = '<strong>Bold text</strong>';
+        element.setAttribute('data-value', '123');
+        element.classList.add('active');
+        element.classList.remove('inactive');
+        element.classList.toggle('visible');
+        
+        // Element Insertion
+        document.body.appendChild(newElement);
+        element.insertBefore(newElement, element.firstChild);
+        
+        // Event Handling
+        element.addEventListener('click', function(event) {
+            console.log('Element clicked');
+            event.preventDefault();
+        });
+        
+        // Form Handling
+        const form = document.querySelector('form');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData);
+            console.log('Form data:', data);
+        });
     });
-    
-    // Form Handling
-    const form = document.querySelector('form');
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const formData = new FormData(form);
-        const data = Object.fromEntries(formData);
-        console.log('Form data:', data);
-    });
-});
+}
+
+// check if we're using node
+if (typeof process !== 'undefined') {
+    console.log('We\'re using node here!');
+}
 
 // Local Storage
 function saveToStorage(key, value) {
