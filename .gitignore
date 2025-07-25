@@ -112,3 +112,6 @@ Thumbs.db
 # Local development
 */local/
 */dev/
+
+# I'm using cursorignore to ignore the projects I'm not currently working on
+.cursorignore
